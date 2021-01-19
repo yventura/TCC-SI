@@ -22,7 +22,38 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e04b48d-9af4-4c1d-b2b1-fbcce681f0f7" name="Default Changelist" comment="" />
+    <list default="true" id="3e04b48d-9af4-4c1d-b2b1-fbcce681f0f7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ComercioAmbulante.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ComercioFixo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ComercioAmbulanteController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ComercioFixoController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/LivreController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/NoturnoController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Livre.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Noturno.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_13_000000_create_comercio_fixo_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_08_144751_create_comercio_ambulante_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_16_180408_create_fisc_noturna_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_16_180545_create_feira_livre_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/comercio_ambulante/add.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/comercio_ambulante/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/comercio_ambulante/pdf_ambulante.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/comerciofixo/add.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/comerciofixo/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/comerciofixo/pdf_comerciofixo.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/feira_livre/add.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/feira_livre/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/feira_livre/pdf_feiralivre.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/footers/auth.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/footers/auth.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/footers/guest.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/footers/guest.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/navbars/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/navbars/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/noturno/add.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/noturno/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/noturno/pdf_noturno.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,12 +76,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/resources/views/layouts/navbars/sidebar.blade.php" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/app/Http/Controllers/ComercioAmbulanteController.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/resources/views/usuario/create.blade.php" root0="SKIP_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/routes/web.php" root0="SKIP_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/resources/views/usuario/create.blade.php" root0="SKIP_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/resources/views/comerciofixo/index.blade.php" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/resources/views/comerciofixo/add.blade.php" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
@@ -256,6 +284,7 @@
       <workItem from="1607344538077" duration="9399000" />
       <workItem from="1607697007443" duration="667000" />
       <workItem from="1610670525548" duration="8185000" />
+      <workItem from="1611095071069" duration="851000" />
     </task>
     <servers />
   </component>

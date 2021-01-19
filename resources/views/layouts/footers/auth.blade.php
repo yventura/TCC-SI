@@ -3,36 +3,17 @@
         <nav class="float-left">
             <ul>
                 <li>
-                    <a href="https://www.guaruja.sp.gov.br">
-                        {{ __('Guaruja') }}
+                    <a href="https://www.unisanta.br">
+                        {{ __('Unisanta') }}
                     </a>
                 </li>
-
-                <li>
-                <a href="https://intranet.guaruja.sp.gov.br">
-                    {{ __('Intranet') }}
-                </a>
-                </li>
-
-                <li>
-                    <a href="http://cloudserver.guaruja.sp.gov.br/">
-                        {{ __('Cloud') }}
-                    </a>
-                </li>
-
-                <li>
-                    <a href="https://mail1.guaruja.sp.gov.br/">
-                        {{ __('Zimbra') }}
-                    </a>
-                </li>
-
             </ul>
         </nav>
         <div class="copyright float-right">
             &copy;
             <script>
                 document.write(new Date().getFullYear())
-            </script> - Feito para Gerenciamento de Ocorrencias dos Fiscais
+            </script> - TCC - LCS
         </div>
     </div>
 </footer>
