@@ -11,40 +11,41 @@
     </div>
     <div class="sidebar-wrapper">
         <ul class="nav">
-
             <div>
-                <li class="nav-item <?php echo e(($activePage == 'meu_cadastro') ? ' active' : ''); ?>">
-                    <a class="nav-link" data-toggle="collapse" href="#perfil" aria-expanded="true">
+                <li class="nav-item <?php echo e(($activePage == 'ticket' || $activePage == 'usuarioNivel') ? ' active' : ''); ?>">
+                    <a class="nav-link" data-toggle="collapse" href="#meu_perfil" aria-expanded="true">
                         <p><?php echo e(__('Inicio')); ?>
 
                             <b class="caret"></b>
                         </p>
                     </a>
 
-                    <div class="collapse <?php echo e(($activePage == 'meu_cadastro') ? 'show' : ''); ?>" id="perfil">
+                    <div class="collapse <?php echo e(($activePage == 'ticket' || $activePage == 'usuarioNivel') ? 'show' : ''); ?>" id="meu_perfil">
                         <ul class="nav">
-                            <li class="nav-item<?php echo e($activePage == 'meu_cadastro' ? ' active' : ''); ?>">
-                                <a class="nav-link" href="<?php echo e(route('usuario.index')); ?>">
+                            <li class="nav-item<?php echo e($activePage == 'ticket' ? ' active' : ''); ?>">
+                                <a class="nav-link" href="<?php echo e(route('ticket.index')); ?>">
                                     <i class="material-icons">persons</i>
-                                    <span class="sidebar-normal"> <?php echo e(__('Meu Cadastro')); ?> </span>
+                                    <span class="sidebar-normal"> <?php echo e(__('Meu Perfil ')); ?> </span>
                                 </a>
                             </li>
                         </ul>
                     </div>
                 </li>
             </div>
+        </ul>
 
+        <ul class="nav">
             <?php if($permissoes[0]->criar_usuario): ?>
                 <div>
                     <li class="nav-item <?php echo e(($activePage == 'user_management' || $activePage == 'usuarioNivel') ? ' active' : ''); ?>">
-                        <a class="nav-link" data-toggle="collapse" href="#control_user" aria-expanded="true">
+                        <a class="nav-link" data-toggle="collapse" href="#laravelExample" aria-expanded="true">
                             <p><?php echo e(__('Controle de Usuários')); ?>
 
                                 <b class="caret"></b>
                             </p>
                         </a>
 
-                        <div class="collapse <?php echo e(($activePage == 'user_management' || $activePage == 'usuarioNivel') ? 'show' : ''); ?>" id="control_user">
+                        <div class="collapse <?php echo e(($activePage == 'user_management' || $activePage == 'usuarioNivel') ? 'show' : ''); ?>" id="laravelExample">
                             <ul class="nav">
                                 <li class="nav-item<?php echo e($activePage == 'user_management' ? ' active' : ''); ?>">
                                     <a class="nav-link" href="<?php echo e(route('usuario.index')); ?>">
@@ -63,16 +64,19 @@
                     </li>
                 </div>
             <?php endif; ?>
+        </ul>
+        
+        <ul class="nav">
             <div>
-                <li class="nav-item <?php echo e(($activePage == 'ticket' || $activePage == 'ticket_search' || $activePage == 'ticket_relatorios') ? ' active' : ''); ?>">
-                    <a class="nav-link" data-toggle="collapse" href="#lcsdesk" aria-expanded="true">
-                        <p><?php echo e(__('LcsDesk')); ?>
+                <li class="nav-item <?php echo e(($activePage == 'ticket' || $activePage == 'usuarioNivel') ? ' active' : ''); ?>">
+                    <a class="nav-link" data-toggle="collapse" href="#ticket" aria-expanded="true">
+                        <p><?php echo e(__('Ticket')); ?>
 
                             <b class="caret"></b>
                         </p>
                     </a>
 
-                    <div class="collapse <?php echo e(($activePage == 'ticket' || $activePage == 'ticket_search' || $activePage == 'ticket_relatorios') ? 'show' : ''); ?>" id="lcsdesk">
+                    <div class="collapse <?php echo e(($activePage == 'ticket' || $activePage == 'usuarioNivel') ? 'show' : ''); ?>" id="ticket">
                         <ul class="nav">
                             <li class="nav-item<?php echo e($activePage == 'ticket' ? ' active' : ''); ?>">
                                 <a class="nav-link" href="<?php echo e(route('ticket.index')); ?>">
@@ -80,16 +84,34 @@
                                     <span class="sidebar-normal"> <?php echo e(__('Chamados')); ?> </span>
                                 </a>
                             </li>
-                            <li class="nav-item<?php echo e($activePage == 'ticket_search' ? ' active' : ''); ?>">
-                                <a class="nav-link" href="<?php echo e(route('ticket_search.index')); ?>">
+                            <li class="nav-item<?php echo e($activePage == 'usuarioNivel' ? ' active' : ''); ?>">
+                                <a class="nav-link" href="<?php echo e(route('nivel.index')); ?>">
                                     <i class="material-icons">persons</i>
-                                    <span class="sidebar-normal"> <?php echo e(__('Consulta Chamado')); ?> </span>
+                                    <span class="sidebar-normal"> <?php echo e(__('Consulta Chamados')); ?> </span>
                                 </a>
                             </li>
-                            <li class="nav-item<?php echo e($activePage == 'ticket_relatorios' ? ' active' : ''); ?>">
-                                <a class="nav-link" href="<?php echo e(route('ticket_relatorios.index')); ?>">
+                        </ul>
+                    </div>
+                </li>
+            </div>
+        </ul>
+        
+        <ul class="nav">
+            <div>
+                <li class="nav-item <?php echo e(($activePage == 'user_management') ? ' active' : ''); ?>">
+                    <a class="nav-link" data-toggle="collapse" href="#relatorio" aria-expanded="true">
+                        <p><?php echo e(__('Relatorios')); ?>
+
+                            <b class="caret"></b>
+                        </p>
+                    </a>
+
+                    <div class="collapse <?php echo e(($activePage == 'user_management') ? 'show' : ''); ?>" id="relatorio">
+                        <ul class="nav">
+                            <li class="nav-item<?php echo e($activePage == 'user_management' ? ' active' : ''); ?>">
+                                <a class="nav-link" href="<?php echo e(route('usuario.index')); ?>">
                                     <i class="material-icons">persons</i>
-                                    <span class="sidebar-normal"> <?php echo e(__('Relatorios')); ?> </span>
+                                    <span class="sidebar-normal"> <?php echo e(__('Relatorios Gerenciais')); ?> </span>
                                 </a>
                             </li>
                         </ul>
