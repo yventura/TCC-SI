@@ -12,24 +12,28 @@
     <div class="sidebar-wrapper">
         <ul class="nav">
             <div>
-                <li class="nav-item {{ ($activePage == 'ticket' || $activePage == 'usuarioNivel') ? ' active' : '' }}">
-                    <a class="nav-link" data-toggle="collapse" href="#meu_perfil" aria-expanded="true">
-                        <p>{{ __('Inicio') }}
-                            <b class="caret"></b>
-                        </p>
-                    </a>
+                <ul class="nav">
+                    <div>
+                        <li class="nav-item {{ ($activePage == 'user_management') ? ' active' : '' }}">
+                            <a class="nav-link" data-toggle="collapse" href="#perfil" aria-expanded="true">
+                                <p>{{ __('Inicio') }}
+                                    <b class="caret"></b>
+                                </p>
+                            </a>
 
-                    <div class="collapse {{ ($activePage == 'ticket' || $activePage == 'usuarioNivel') ? 'show' : '' }}" id="meu_perfil">
-                        <ul class="nav">
-                            <li class="nav-item{{ $activePage == 'ticket' ? ' active' : '' }}">
-                                <a class="nav-link" href="{{ route('ticket.index') }}">
-                                    <i class="material-icons">persons</i>
-                                    <span class="sidebar-normal"> {{ __('Meu Perfil ') }} </span>
-                                </a>
-                            </li>
-                        </ul>
+                            <div class="collapse {{ ($activePage == 'user_management') ? 'show' : '' }}" id="perfil">
+                                <ul class="nav">
+                                    <li class="nav-item{{ $activePage == 'user_management' ? ' active' : '' }}">
+                                        <a class="nav-link" href="{{ route('usuario.index') }}">
+                                            <i class="material-icons">persons</i>
+                                            <span class="sidebar-normal"> {{ __('Meu Cadastro') }} </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
                     </div>
-                </li>
+                </ul>
             </div>
         </ul>
 
