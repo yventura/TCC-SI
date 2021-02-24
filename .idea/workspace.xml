@@ -174,17 +174,17 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/routes/web.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/relatorios" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\TCC-SI\resources\views\relatorios" />
+      <recent name="C:\xampp\htdocs\TCC-SI\resources\views\ticket" />
       <recent name="C:\xampp\htdocs\projeto1\app\Http\Controllers" />
       <recent name="C:\xampp\htdocs\projeto1\resources\views\noturno" />
       <recent name="C:\xampp\htdocs\projeto1\resources\views\livre" />
-      <recent name="C:\xampp\htdocs\projeto1\database\migrations" />
-      <recent name="C:\xampp\htdocs\projeto1\resources\views\comerciofixo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\projeto1\resources\views" />
@@ -309,5 +309,16 @@
     <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606831715211" />
     <state x="-919" y="463" width="672" height="475" key="search.everywhere.popup/0.0.1920.1040/-1360.305.1360.728@-1360.305.1360.728" timestamp="1605795522562" />
     <state x="-923" y="463" width="675" height="475" key="search.everywhere.popup/0.0.1920.1040/-1366.305.1366.728@-1366.305.1366.728" timestamp="1606239773991" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/layouts/navbars/sidebar.blade.php</url>
+          <line>119</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
